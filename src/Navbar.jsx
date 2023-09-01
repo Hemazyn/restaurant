@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="w-full flex justify-between items-center px-12 py-1" >
                <div className="hidden lg:block">
                     <div className="flex items-center gap-x-2">
-                         <h4 className="text-sm font-medium hover:text-orange-400 duration-200 cursor-pointer">Current Menu</h4>
+                         <h4 className="text-sm font-medium hover:text-orange-400 duration-200 cursor-pointer font-serif text-3xl">Current Menu</h4>
                          <div className="flex items-center text-white  bg-orange-300 px-4 py-2 cursor-pointer rounded-sm">
                               <h5 className="text-sm font-medium">Shop</h5>
                               <span className="text-3xl"> <RiArrowDropDownLine /> </span>
@@ -45,7 +45,7 @@ const Navbar = () => {
                </div>
                <ul className="hidden md:flex lg:flex">
                     {links.map(({ id, link }) => (
-                         <li key={id} className="px-4 cursor-pointer capitalize font-medium hover:text-orange-400 duration-200" >
+                         <li key={id} className="px-4 cursor-pointer capitalize font-medium font-serif hover:text-orange-400 duration-200" >
                               <Link to={link} smooth duration={500}>{link}</Link>
                          </li>
                     ))}
