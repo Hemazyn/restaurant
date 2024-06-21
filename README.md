@@ -12,7 +12,7 @@ This project is a responsive and modern landing page for a restaurant, built wit
 - [Acknowledgment](#acknowledgments)
 
 ### Preview
-![](/public/restuarant.png)
+![](/public/restaurant.png)
 
 ### Links
 
